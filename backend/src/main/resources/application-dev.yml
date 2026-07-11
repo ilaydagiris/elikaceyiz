@@ -15,3 +15,5 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+    liquibase: DEBUG
+    org.springframework.boot.autoconfigure.liquibase: DEBUG
